@@ -26,8 +26,8 @@ requires-python = ">=3.10"
 Homepage = "https://github.com/dsetiawan230294/locust-victoria-metrics"
 Bug Tracker = "https://github.com/dsetiawan230294/locust-victoria-metrics/issues"
 
-[tool.setuptools]
-package-dir = {"" = "src"}
+[tool.setuptools.package-dir]
+"" = "src"
 
 [tool.setuptools.packages.find]
 where = ["src"]
