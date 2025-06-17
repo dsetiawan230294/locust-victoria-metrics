@@ -27,8 +27,7 @@ Homepage = "https://github.com/dsetiawan230294/locust-victoria-metrics"
 Bug Tracker = "https://github.com/dsetiawan230294/locust-victoria-metrics/issues"
 
 [tool.setuptools]
-# Automatically find all packages under src
-packages = ["locust_victoria_metrics"]
+package-dir = {"" = "src"}
 
-[tool.setuptools.package-dir]
-"" = "src"
+[tool.setuptools.packages.find]
+where = ["src"]
