@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "locust-victoria-metrics"
-version = "0.0.1"
+version = "0.0.2"
 description = "A Locust plugin to extract test results and push metrics to Victoria Metrics"
 readme = "README.md"
 authors = [
@@ -18,7 +18,7 @@ classifiers = [
     "Operating System :: OS Independent"
 ]
 dependencies = [
-    "locust>=2.29.1"
+    "locust==2.29.1"
 ]
 requires-python = ">=3.10"
 
