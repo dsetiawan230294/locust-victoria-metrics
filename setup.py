@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="locust-victoria-metrics",
-    version="0.0.2",
+    version="0.0.3",
     description="A Locust plugin to extract test results and push metrics to Victoria Metrics",
     long_description=long_description,
     long_description_content_type="text/markdown",

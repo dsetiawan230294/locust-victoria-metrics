@@ -4,6 +4,7 @@ import logging
 import time
 
 logger = logging.getLogger(__name__)
+logger.setLevel("ERROR")
 
 
 class VictoriaMetrics:
@@ -38,7 +39,7 @@ class VictoriaMetrics:
                 exit(1)
 
         except json.decoder.JSONDecodeError:
-            logger.warning(f"Wrong response from server: {url}")
+            logger.error(f"Wrong response from server: {url}")
             return
 
     def _collect_metrics(self, response):
